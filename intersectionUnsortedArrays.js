@@ -1,0 +1,1 @@
+const getIntersection = (arr1, arr2) => arr1.filter( (innerItem) => !arr2.includes(innerItem) && [...Set(innerItem)])
